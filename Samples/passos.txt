@@ -1,0 +1,22 @@
+begin
+int inicio;
+int fim;
+int passo;
+
+write("Digite o inicio");
+read(inicio);
+write("Digite o fim");
+read(fim);
+write("Digite o passo");
+read(passo);
+
+while (inicio < fim):
+    write(inicio);
+    write(",");
+    inicio := inicio - passo;
+end
+
+write(inicio);
+write("");
+
+end

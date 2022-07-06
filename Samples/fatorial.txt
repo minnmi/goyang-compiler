@@ -1,0 +1,17 @@
+begin
+int numero;
+int fatorial;
+
+write("Escreva um numero");
+read(numero);
+
+fatorial:=1;
+
+while(numero > 1):
+	fatorial := fatorial * numero;
+	numero := numero - 1;
+end
+write("fatorial:");
+write(fatorial);
+
+end

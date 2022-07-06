@@ -1,0 +1,32 @@
+begin
+int numnota;
+int cont;
+int nota;
+int soma;
+int media;
+
+write("Digite o numero de notas");
+read(numnotas);
+
+cont := 1;
+soma := 0;
+
+while(cont < numnotas + 1):
+    write("Nota");
+    write(cont);
+    write(":");
+
+    read(nota);
+
+    soma := soma + nota;
+
+end
+
+media := soma/numnotas;
+write("Media");
+write(media);
+write("");
+
+end
+
+

@@ -1,0 +1,19 @@
+begin 
+int num;
+
+write("Digite um numero");
+read(num);
+
+if (num < 0):
+    write("Numero negativo nao valido");
+
+
+while(num > 0):
+    write(num);
+    num := num - 1;
+end
+
+end
+
+end
+

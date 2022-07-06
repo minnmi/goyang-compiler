@@ -1,0 +1,18 @@
+begin
+int numero;
+
+write(numero);
+
+write("Digite numero");
+write(numero);
+read(numero);
+
+if (numero < 3):
+	write("Menor que 3.");
+else:
+	write("Maior ou igual a 3.");
+end
+
+write(numero);
+
+end
