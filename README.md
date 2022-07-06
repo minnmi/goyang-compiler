@@ -1,4 +1,4 @@
-# Goyangi Language
+# Goyang Language
 
 
 ### Características
